@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #C4A4D4;
+    color: #111;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    display: inline-block;
+    color: #111;
+    font-size: 2rem;
+}
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 800px;
+}
+.meal {
+    background-color: #fff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    display: flex;
+}
+.meal-img{
+    flex: 1;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.meal-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.meal-details {
+    padding: 30px;
+    position: relative;
+    flex: 2;
+}
+.meal-title{
+    color: #351898;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+.meal-instruction{
+    font-size: 14px;
+}
+.meal-info{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+.meal-info li{
+    color: #555;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 50px;
+}
+.meal-info li strong{
+    font-size: 18px;
+    color: #351898;
+    display: block;
+}
+
+.btn{
+    background-color: #F7930A;
+    color: #fff;
+    font-size: 0.8rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    font-weight: 600;
+    padding: 20px 35px;
+    border: none;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.meal-details .btn{
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+}
